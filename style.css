@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding:0; 
+  box-sizing: border-box;
+  
+}
+body{
+  background-color:black;
+  color: white;
+  font-family: "Poppins",sans-serif;
+  
+}
+.navbar{
+  position: absolute;
+  top:0 ;
+  width:100%; 
+  display:flex;
+  justify-content:space-between;
+  padding:1.5% 10%;
+  z-index: 10;
+}
+.navbar_netflix{
+
+  height:100%;
+  width:125px;
+}
+.navbar_icons{
+  display:flex;
+  gap:10px;
+   
+}
+.netflix_logo{
+  width:125%;
+  height:125%;
+ 
+}
+.language_drop_down{
+  background-color:transparent ;
+  border: none;
+  color: white;
+}
+.dropdown_container{
+  border:1px solid gray;
+  padding:0.4rem 0.6rem;
+  border-radius:5px;
+  background: rgba(0,0,0,0.4); 
+}
+.sign_in_button{
+  position: absolute;
+  padding:0.55rem 1rem;
+  background-color:#dc030f;
+  border-radius: 4px;
+  border:#dc030f;
+  color:white;
+  
+}
+.main_section{
+  height:100%;
+  width:100%;
+}
+.background_img{
+  
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+.bg_img_container{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8) ;
+}
+.main_card{
+position: absolute;
+  inset:0;
+  top:27%;
+  left:29%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main_texts{
+ 
+  font-size:3.5rem;
+  font-weight:800; 
+}
+.main_texts1{
+
+  font-weight: 400;
+  font-size: 1.4rem;
+  
+}
+
+.email_input{
+  display:flex;
+  gap:10px;
+  position: absolute;
+  top:43%;
+  height:60px;
+  width: 800px;
+}
+.email_input_box{
+  position: relative;
+  height:100%;
+  width:45%;
+  size:2rem;
+  background:transparent;
+  border:1px solid gray;
+  border-radius: 5px;
+  background-color:rgba(0,0,0,0.4);
+  font-size:medium;
+  color: white;
+}
+.get_started_button{
+  position: relative;
+  background-color: #dc030f;
+  border-radius: 5px;
+  color: white;
+  height:100% ;
+  width: 27%;
+  border:#dc030f;
+  font-size: 1.6rem;
+  
+}
+
+.card,.card1{
+ 
+  border-top: 8px solid rgb(69,69,69);
+  height:550px; 
+  width:100%;
+  background-color: black;
+  display: flex;
+  gap:30px;
+}
+card1{
+  border-top-left-radius:15%;
+  border-top-right-radius:15%;
+  border-top-color:#dc303f;
+  
+  
+}
+.text1,.text2,.text3{
+  position: relative;
+  padding: 12% 6%;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.style_text,.style_text2,.style_text3{
+  font-size: 3rem;
+  
+}
+.style_desc,.style_desc2,.style_desc3{
+font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.videos{
+  position: relative;
+}
+.video{
+  position: absolute;
+  height: 400px;
+  width: 520px;
+  inset:0;
+  left: 30px;
+  top: 18px;
+}
+.img1{
+  position: relative;
+  height: 500px;
+  width: 615px;
+}
+.img2{
+  padding-top:50px;
+  height:500px;
+  width:450px;
+}
+
+.text2{
+    left:10%;
+}
+
+.video1{
+  position: absolute;
+  height: 51%;
+  width: 56%;
+  inset:0;
+  left: 22%;
+  top: 32%;
+  border-radius: 15px;
+}
+.img3{
+  position: relative;
+  height: 650px;
+  width: 652px;
+  
+}

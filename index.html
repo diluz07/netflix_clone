@@ -1,0 +1,86 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Netflix - Watch Movies Online,Watch Series Online</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class ="navbar_netflix"> 
+        <img src="images/NetflixLogo.png" alt="netflix logo" class="netflix_logo"/>
+      </div>
+      <div class="navbar_icons">
+        <div class="nav_item">
+          <div class="dropdown_container">
+            <i class="fa fa-globe"></i>
+            <select name="languages" id="languageSelect" class="language_drop_down">
+              <option value="english" selected>English</option>
+              <option value="hindi">Hindi</option>
+              <option value="malayalam">Malayalam</option>
+            </select>
+          </div>
+        </div>  
+        <div class= "nav_item">
+          <button class="sign_in_button">Sign In</button>  
+        </div>
+      </div>
+    </nav>
+    
+  </header>
+  <main>
+    <section class="main_section">
+      
+      <div class="main_content">
+        <img src="images/NeflixBackground.jpg" alt="netflix_background_img" class="background_img"/>
+      </div>
+      <div class ="bg_img_container"></div>
+      <div class="main_card">
+        <h1 class="main_texts">Unlimited movies, TV<br> shows and more</h1>
+        <h3 class="main_texts1">Starts at ₹149. Cancel at any time</h3>
+        <p class="main_para"><nobr>Ready to watch? Enter your email to create or restart your membership.</nobr></p>
+        <div class="email_input">
+          <input type="email" placeholder="  Email address" class="email_input_box"/>
+          <button class="get_started_button">Get Started ></button>
+        </div>
+      </div>
+    </section>
+    <section class="style_cards">
+      <div class="card1">
+        <div class="text1">
+          <h1 class="style_text">Enjoy on your TV.</h1>
+          <p class="style_desc">Watch on smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, Blu-ray players and<br> more.</p>
+        </div>
+        <div class="videos">
+           <video class="video" autoplay="" playsinline="" muted="" loop=""src="images/ui.mp4" type="video/mp4"> </video>
+          <img class="img1"src="images/tv.png" alt="Netflix TV"/>
+        </div>
+      </div>
+      <div class="card">
+        <div class= "videos">
+          <img class="img2" src="images/NetflixPhone.png" alt="Netflix Mobile" />
+        </div>
+        <div class="text2">
+        <h1 class="style_text2">Download your shows<br> to watch offline</h1>
+        <p class="style_desc2">Save your favourites easily and always have<br> something to watch.</p>
+        </div>
+      </div>   
+      <div class="card">
+        <div class="text3">
+          <h1 class="style_text3">Watch everywhere.</h1>
+          <p class="style_desc3">Stream unlimited movies and TV shows on<br> your phone, tablet, laptop, and TV.</p>
+      </div>
+        <div class="videos">
+          <img class="img3" src="images/mac.png" alt="Netflix Mobile" />
+          <video class="video1" autoplay="" playsinline="" muted="" loop="" src="images/st.mp4" type="video/mp4"></video>
+          
+        </div>
+    </section>
+  </main>
+</body>
+
+</html>
