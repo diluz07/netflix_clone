@@ -85,11 +85,13 @@ position: absolute;
  
   font-size:3.5rem;
   font-weight:800; 
+  letter-spacing:2px;
 }
 .main_texts1{
 
   font-weight: 400;
   font-size: 1.4rem;
+  letter-spacing:.5px;
   
 }
 
